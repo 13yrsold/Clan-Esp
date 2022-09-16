@@ -8,7 +8,7 @@ local function Esp(Head)
     billboardgui.ExtentsOffset = Vector3.new(0, 1, 0)
     billboardgui.Size = UDim2.new(0, 5, 0, 5)
 
-    coryutextlabel.Name = "coryu"
+    coryutextlabel.Name = "aurora"
     coryutextlabel.BackgroundColor3 = Color3.new(0,0,0)
     coryutextlabel.BackgroundTransparency = 1
     coryutextlabel.BorderSizePixel = 0
@@ -23,7 +23,7 @@ local function Esp(Head)
 end
 
 game.Players.PlayerAdded:Connect(function(kos)
-    if kos:IsInGroup(10490649) then
+    if kos:IsInGroup(15873872) then
         kos.CharacterAdded:Connect(function(char)
             repeat wait(nil) 
             until char:FindFirstChild("Humanoid")
@@ -35,7 +35,7 @@ game.Players.PlayerAdded:Connect(function(kos)
 end)
 
 for i, kos in pairs(game.Players:GetPlayers()) do
-    if kos:IsInGroup(10490649) then
+    if kos:IsInGroup(15873872) then
         kos.CharacterAdded:Connect(function(char)
             repeat wait(nil) 
             until char:FindFirstChild("Humanoid")
